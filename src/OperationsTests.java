@@ -17,8 +17,9 @@ public class operationsTests {
 	}
 	
 	@Test
-	public void OperationAdd() throws Exception{
-		oper.add();
+	public void OperationAdd2and3equals7() throws Exception{
+		oper.add(2,3);
+		Assert.assertEquals(5,oper.total());
 	}
 
 }
