@@ -13,6 +13,7 @@ public class operationsTests {
 	
 	@Test
 	public void OperationAdd3and5equals8() throws Exception{
+		oper.add(3,5);
 		Assert.assertEquals(8,oper.total());
 	}
 	

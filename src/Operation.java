@@ -1,16 +1,14 @@
 
 public class Operation {
 
-	public int value() {
-		return 0;
-	}
-
+	private int total=0; 
+	
 	public void add(int a, int b) {
-		
+		total=a+b;
 	}
 
 	public int total() {
-		return 5;
+		return total;
 	}
 	
 }
