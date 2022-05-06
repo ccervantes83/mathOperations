@@ -1,8 +1,16 @@
+import org.junit.Test;
 
-public class OperationsTests {
+public class operationsTests {
 
-	public OperationsTests() {
-		// TODO Auto-generated constructor stub
+	@Test
+	public void OperationTest() {
+		Operation oper = new Operation();
+	}
+	
+	@Test
+	public void OperationAdd() {
+		Operation oper = new Operation();
+		oper.add();
 	}
 
 }
