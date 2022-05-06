@@ -8,5 +8,9 @@ public class Operation {
 	public void add(int a, int b) {
 		
 	}
+
+	public int total() {
+		return 5;
+	}
 	
 }
