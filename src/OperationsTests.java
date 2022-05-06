@@ -1,3 +1,4 @@
+import org.junit.Assert;
 import org.junit.Test;
 
 public class operationsTests {
@@ -5,6 +6,7 @@ public class operationsTests {
 	@Test
 	public void OperationTest() {
 		Operation oper = new Operation();
+		Assert.assertEquals(0,oper.value());
 	}
 	
 	@Test
