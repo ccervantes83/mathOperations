@@ -34,4 +34,15 @@ public class operationsTests {
 		oper.substract(9,6);
 		Assert.assertEquals(3,oper.total());
 	}
+	
+	@Test
+	public void OperationMultiplication8and2equals16() throws Exception{
+		oper.multiplicate(8,2);
+		Assert.assertEquals(16,oper.total());	
+	}
+	
+	public void OperationMultiplication45and10equals450() throws Exception{
+		oper.multiplicate(45,10);
+		Assert.assertEquals(450,oper.total());	
+	}
 }

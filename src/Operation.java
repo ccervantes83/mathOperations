@@ -14,5 +14,9 @@ public class Operation {
 	public void substract(int i, int j) {
 		total=i-j;
 	}
+
+	public void multiplicate(int k, int l) {
+		total=k*l;		
+	}
 	
 }
