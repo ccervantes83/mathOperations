@@ -18,5 +18,9 @@ public class Operation {
 	public void multiplicate(int k, int l) {
 		total=k*l;		
 	}
+
+	public int division(int i, int j) {
+		return 0;
+	}
 	
 }
