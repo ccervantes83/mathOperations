@@ -10,5 +10,9 @@ public class Operation {
 	public int total() {
 		return total;
 	}
+
+	public int substract(int i, int j) {
+		return 0;
+	}
 	
 }
