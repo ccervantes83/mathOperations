@@ -19,8 +19,7 @@ public class Operation {
 		total=k*l;		
 	}
 
-	public int division(int i, int j) {
-		return 0;
+	public void division(int m, int n) {
+		total=m/n;
 	}
-	
 }
