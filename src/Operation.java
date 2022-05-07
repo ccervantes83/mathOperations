@@ -3,20 +3,20 @@ public class Operation {
 
 	private int total=0; 
 	
-	public void add(int a, int b) {
-		total=a+b;
+	public void add(int operator1, int operator2) {
+		total=operator1+operator2;
 	}
 
-	public void substract(int i, int j) {
-		total=i-j;
+	public void substract(int operator1, int operator2) {
+		total=operator1-operator2;
 	}
 
-	public void multiplicate(int k, int l) {
-		total=k*l;		
+	public void multiplicate(int operator1, int operator2) {
+		total=operator1*operator2;		
 	}
 
-	public void division(int m, int n) {
-		total=m/n;
+	public void division(int operator1, int operator2) {
+		total=operator1/operator2;
 	}
 	
 	public int total() {
