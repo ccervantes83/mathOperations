@@ -22,5 +22,10 @@ public class operationsTests {
 		oper.add(2,3);
 		Assert.assertEquals(5,oper.total());
 	}
-
+	
+	@Test
+	public void OperationSubstract8and3equals5() throws Exception{
+		oper.substract(8,3);
+		Assert.assertEquals(5,oper.total());
+	}
 }
