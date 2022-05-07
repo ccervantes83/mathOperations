@@ -11,8 +11,8 @@ public class Operation {
 		return total;
 	}
 
-	public int substract(int i, int j) {
-		return 0;
+	public void substract(int i, int j) {
+		total=i-j;
 	}
 	
 }
