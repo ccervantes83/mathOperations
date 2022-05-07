@@ -28,4 +28,10 @@ public class operationsTests {
 		oper.substract(8,3);
 		Assert.assertEquals(5,oper.total());
 	}
+	
+	@Test
+	public void OperationSubstract9and6equals3() throws Exception{
+		oper.substract(9,6);
+		Assert.assertEquals(3,oper.total());
+	}
 }
