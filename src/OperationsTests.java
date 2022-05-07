@@ -45,4 +45,10 @@ public class operationsTests {
 		oper.multiplicate(45,10);
 		Assert.assertEquals(450,oper.total());	
 	}
+	
+	@Test
+	public void OperationDivision8and2equals4() throws Exception{
+		oper.division(8,2);
+		//Assert.assertEquals(16,oper.total());	
+	}
 }
