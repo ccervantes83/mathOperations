@@ -49,6 +49,12 @@ public class operationsTests {
 	@Test
 	public void OperationDivision8and2equals4() throws Exception{
 		oper.division(8,2);
-		Assert.assertEquals(4,oper.total());	
+		Assert.assertEquals(4,oper.total());
+	}
+	
+	@Test
+	public void OperationDivisionNegative() throws Exception{
+		oper.division(15,-5);
+		Assert.assertEquals(-3,oper.total());
 	}
 }

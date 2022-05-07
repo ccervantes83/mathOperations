@@ -7,10 +7,6 @@ public class Operation {
 		total=a+b;
 	}
 
-	public int total() {
-		return total;
-	}
-
 	public void substract(int i, int j) {
 		total=i-j;
 	}
@@ -21,5 +17,9 @@ public class Operation {
 
 	public void division(int m, int n) {
 		total=m/n;
+	}
+	
+	public int total() {
+		return total;
 	}
 }
